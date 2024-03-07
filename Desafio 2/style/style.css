@@ -1,0 +1,252 @@
+* {
+margin: 0;
+font-family: 'inter';
+padding: 0;
+}
+
+
+
+#header {
+    background-color: #0C70F2;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    height: 40px;
+    color: #FFFFFF;
+}
+
+#title {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#addres {
+    margin-left: 350px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#wheaterForecast {
+    margin-top: 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#text{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+    margin-left: 100px;
+}
+
+#texto {
+    font-size: 30px;
+    font-weight: 800px;
+    margin-top: 100px;
+    
+}
+
+#tempo {
+    width: 180px;
+    margin-top: 60px;
+    margin-left: -50px;
+
+}
+
+.inputs {
+    margin: 50px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    padding: 30px;
+    width: 350px;
+    background-color: rgb(228, 228, 228);
+
+}
+
+input {
+    margin: 10px;
+    margin-left: 22px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    
+}
+
+
+#button {
+    width: 300px;
+    height: 30px;
+    margin-left: 22px;
+    margin-top: 25px;
+    border: 0;
+    border-radius: 7px;
+    background-color: #0C70F2E5;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+
+}
+
+.form { 
+    width: 300px;
+    height: 25px;
+    border: 0;
+    border-radius: 7px;
+    
+}
+
+.loc {
+    width: 120px;
+    height: 25px;
+    border: 0;
+    border-radius: 7px;
+}
+
+.textForm {
+    margin-left: 22px;
+    margin-bottom: 5px;
+}
+
+.logcep {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 0;
+    margin-top: 120px;
+}
+
+#textForecast {
+    font-size: 30px;
+    font-weight: 800px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: 10px;
+    
+}
+
+#local {
+    width: 80px;
+    margin-top: 80px;
+    
+    
+}
+
+.source {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    grid: 0;
+    margin-left: 80px;
+    background-color: #0C70F2;
+    width: 800px;
+    height: 50px;
+    border-radius: 30px 30px 0px 0px;
+    color: white;
+    align-items: center;
+    
+}
+
+.textCEP {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#responseCEP {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;   
+    width: 800px;   
+    height: 50px;
+    border-radius: 0px 0px 30px 30px;
+    background-color:  rgb(228, 228, 228);
+    margin-left: 80px;
+    width: 800px;
+    height: 50px;
+
+}
+
+.result {
+    border: 0;
+    background-color:  rgb(228, 228, 228);
+    
+}
+
+#logradouro #bairro #Localidade {
+    border: 0;
+    border-radius: 7px;
+    height: 20px;
+    background-color:  rgb(228, 228, 228);
+}
+
+
+
+.time {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 0;
+    margin-top: 230px;
+    margin-left: 250px;
+    padding-right: 0%;
+    
+    
+}
+
+#cloud {
+    width: 80px;
+    margin-left: -120px;
+    
+}
+
+#weatherResult {
+    margin-top: 40px;
+    margin-bottom: 250px;
+}
+
+#resultWeather {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    width: 800px;
+    height: 50px;
+    border-radius: 30px;
+    border-color: #0C70F2;
+    font-size: 30px;
+    
+}
+
+#baseBoard {
+    background-color: #0C70F2;
+    width: auto;
+    height: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+    
+}
+
+#terms {
+    margin-top: 15px;
+    margin-left: 680px;
+    color: #FFFFFF;
+    
+}
+#linkcloud #lickforecast {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+

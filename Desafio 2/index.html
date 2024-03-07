@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:
+wght@100;200;300;400;500;600;700;800;900&display
+=swap" rel="stylesheet">
+    <title>DNC Weather</title>
+    <link rel="stylesheet" href="./style/style.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <!--Header-->
+        <div id="header">
+            <h1 id="title">DNCWather</h1>
+            <ul id="addres"> <a id="linkforecast" href="#textForecast">Endereços</a></ul>
+            <ul id="wheaterForecast"> <a id="linkcloud" href="#cloud">Previsão do tempo</a></ul>
+        </div>
+        <!--Read-->
+        <div id="text">
+            <h1 id="texto">Descubra Mais com Precisão:<br>
+                Previsões do Tempo e endereços<br>
+                em tempo real.</h1>
+            <img src="./imgs/tempo.svg" alt="" id="tempo">
+        </div>
+        <!--Form-->
+        <div class="inputs">
+            <div id="form">
+                <p class="textForm">Primeiro Nome:</p>
+                <input class="form" type="text" placeholder="Insira seu primeiro nome" name="Name" required><br>
+                <p class="textForm">E-mail:</p>
+                <input class="form" type="email" placeholder="Insira seu email" name="Email" required> <br>
+                <p id="Cep" class="textForm">Digite o CEP</p>
+                <input class="form" id="cep" type="number" placeholder="Insira o Cep" name="Cep"> <br>
+                <p class="textForm">Digite a latitude e longitude para saber a previsão:</p>
+                <input id="lat" class="loc" type="number" placeholder="Latitude" name="latitude" required>
+                <input id="long" class="loc" type="number" placeholder="Longitude" name="Longitude" required><br>
+                <button id="button" class="bTn" type="submit" onclick="getAdressByResult()"> Acessar </button>
+            </div>
+        </div>
+        <!--cepresultRead-->
+        <div class="logcep">
+            <h1 id="textForecast">Resultado da busca por CEP:</h1>
+            <img id="local" src="./imgs/local.svg" alt="">
+        </div>
+        <div class="source">
+            <p class="textCEP">Logradouro/nome</p>
+            <p class="textCEP">Bairro/Distrito</p>
+            <p class="textCEP">Localidade/UF</p>
+        </div>
+        <!--cepresultInputs-->
+        <div id="responseCEP">
+            <input class="result" id="logradouro" type="text" readonly>
+            <input class="result" id="bairro" type="text" readonly>
+            <input class="result" id="Localidade" type="text" readonly>
+        </div>
+        <!--forecastreadResult-->
+        <div class="time">
+            <h1>Previsão do tempo na região:</h1>
+            <img id="cloud" src="./imgs/cloud.svg" alt="">
+        </div>
+        <!--forecastinputResult-->
+        <div id="weatherResult">
+            <input id="resultWeather" type="text">
+        </div>
+        <!--baseBoard-->
+        <div id="baseBoard">
+            <p id="terms">Termos de Uso | Política de Privacidade</p>
+        </div>
+    </div>
+    </div>
+    <script src="./script/consulta-endereco.js"></script>
+</body>
+
+</html>
